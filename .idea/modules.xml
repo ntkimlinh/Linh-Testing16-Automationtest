@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo1/Demo1.iml" filepath="$PROJECT_DIR$/Demo1/Demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seseon2 _Loop/Seseon2 _Loop.iml" filepath="$PROJECT_DIR$/Seseon2 _Loop/Seseon2 _Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session2_Loop/Session2_Loop.iml" filepath="$PROJECT_DIR$/Session2_Loop/Session2_Loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session3_Array_Funcion_Loop/Session3_Array_Funcion_Loop.iml" filepath="$PROJECT_DIR$/Session3_Array_Funcion_Loop/Session3_Array_Funcion_Loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Testing16.iml" filepath="$PROJECT_DIR$/.idea/Testing16.iml" />
     </modules>
   </component>
