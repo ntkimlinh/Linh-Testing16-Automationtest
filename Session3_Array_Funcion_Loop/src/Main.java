@@ -73,17 +73,17 @@ public class Main {
         //input: Cybersoft
         //output: Cybrsft
 
-        String str= "Cybersoft";  //String là tập hợp các ký tự
-        String result = "";       //String <=> char[]
-        //Cách 1:
-        for (int i = 0; i < str.length(); i++) {
-            char c =  str.charAt(i); //chuyển ký tự về chữ thường
-            char lowerC = Character.toLowerCase(c);
-            if (lowerC != 'u' && lowerC != 'e' && lowerC != 'o' && lowerC != 'a' && lowerC != 'i') {
-                result += c;
-            }
-        }
-        System.out.println(result);
+//        String str= "Cybersoft";  //String là tập hợp các ký tự
+//        String result = "";       //String <=> char[]
+//        //Cách 1:
+//        for (int i = 0; i < str.length(); i++) {
+//            char c =  str.charAt(i); //chuyển ký tự về chữ thường
+//            char lowerC = Character.toLowerCase(c);
+//            if (lowerC != 'u' && lowerC != 'e' && lowerC != 'o' && lowerC != 'a' && lowerC != 'i') {
+//                result += c;
+//            }
+//        }
+//        System.out.println(result);
 
         String str= "Cybersoft";  //String là tập hợp các ký tự
         String result = "";       //String <=> char[]
@@ -92,9 +92,10 @@ public class Main {
             char lowerC = Character.toLowerCase(c);
             //Cách 2:
             if ("ueoai".contains(String.valueOf(lowerC)) == false) {
-                result += c:
+                result += c;
             }
         }
+        System.out.println(result);
 
 
 
