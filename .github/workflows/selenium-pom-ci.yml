@@ -35,7 +35,7 @@ on:
 # sẽ tự động cd vào folder cần chạy
 defaults:
   run:
-    working-directory: selenium-pom
+    working-directory: selenium_pom
 
 jobs:
   selenium-tests:
